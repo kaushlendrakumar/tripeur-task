@@ -76,11 +76,6 @@ body {
       position: fixed;
       display: block;
       z-index: 9; }
-    body #header-wrapper .header-right-list-container {
-      width: calc(100% - 220px); }
-      @media screen and (max-width: 992px) {
-        body #header-wrapper .header-right-list-container {
-          width: 100%; } }
     body #header-wrapper .logoname {
       font-size: 24px; }
     body #header-wrapper .toggle-leftnav {

@@ -90,7 +90,7 @@ function init(){
 }
 
 function hamburger_cross() {
-  $(this).toggleClass('fa-bars fa-times');
+  trigger.toggleClass('fa-bars fa-times');
   if (isClosed == true) {          
     overlay.hide();
     trigger.removeClass('is-open');
