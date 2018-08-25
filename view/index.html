@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tripeur | History page</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- css files -->
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../assets/css/jquery-ui.css">
+	<link rel="stylesheet" href="../assets/css/index.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" id="header-wrapper">
+			<!-- Logo with toggle button of left navigation -->
+			<div class="col-xs-12 col-md-2 height-60 logo-wrapper bg-primary-black primary-silver">
+				<span class="logoname bold primary-red">Tripeur</span>
+				<i class="fa fa-times pull-right cursor-p toggle-leftnav hamburger is-closed" data-toggle="offcanvas"></i>
+			</div>
+			<div class="col-xs-12 col-md-10 border-bottom p-0 header-right-list-container">
+				<div class="header-right-list-wrapper pull-right">
+					<div class="height-60 border-left each-list">
+						<div class="connect-icon">
+							<i class="fa fa-headphones cursor-p primary-silver"></i>
+						</div>
+					</div>
+					<div class="user-profile-wrapper dropdown border-left each-list">
+						<div data-toggle="dropdown">
+							<img src="../assets/img/user.jpeg"> Aveek Katiyar
+							<span class="caret"></span>
+						</div>
+					  	<ul class="dropdown-menu user-list">
+						    <li><a href="#">Logout</a></li>
+					  	</ul>
+					</div>
+					<div class="height-60 border-left each-list uppercase">
+						<a href="#" class="primary-red">booking panel</a>
+					</div>
+					<div class="height-60 border-left each-list uppercase credit-wrapper text-center">
+						<div class="caption1 primary-red">Availabel Credit</div>
+						<div class="primary-black">
+							<i class="fa fa-rupee"></i>
+							- 168,965.00
+						</div>
+						<div><a href="#" class="caption1">View details</a></div>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="col-xs-12 p-0" id="wrapper">
+				<!-- left navigation -->
+				<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+		            <ul class="nav sidebar-nav">
+		                <li>
+		                    <a href="#" data-toggle="collapse" data-target="#dashboard" class="collapsed">
+		                       <i class="fa fa-th-large icon"></i>Dashboard
+
+		                       <i class="fa fa-angle-down icon pull-right"></i>
+		                    </a>
+		                    <ul class="sub-menu collapse" id="dashboard">
+			                    <li class="active"><a href="#">CSS3 Animation</a></li>
+			                    <li><a href="#">General</a></li>
+			                    <li><a href="#">Buttons</a></li>
+			                    <li><a href="#">Tabs & Accordions</a></li>
+			                    <li><a href="#">Typography</a></li>
+			                    <li><a href="#">FontAwesome</a></li>
+			                    <li><a href="#">Slider</a></li>
+			                    <li><a href="#">Panels</a></li>
+			                    <li><a href="#">Widgets</a></li>
+			                    <li><a href="#">Bootstrap Model</a></li>
+			                </ul>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-university icon"></i>Company
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-file-text-o icon"></i>Company Pilicies
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-shopping-bag icon"></i>Travel Policies
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-lock icon"></i>Access Policies
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-users icon"></i>Employees
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-user-secret icon"></i>Guests
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-newspaper-o icon"></i>Invoices
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-paperclip icon"></i>Expense Reports
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="#">
+		                       <i class="fa fa-inr icon"></i>Transaction
+		                    </a>
+		                </li>
+		            </ul>
+		        </nav>
+
+				<!-- two column resizable -->
+		        <div class="col-xs-12" id="page-content-wrapper">
+		            <div class="row">
+		                <div class="col-xs-12 p-0">
+		                	<div class="col-xs-12 p-0" id="two-column-container">
+			                	<div class="row">
+			                		<div class="col-xs-12 col-md-6 p-0" id="leftsplit-section">
+			                			<div class="col-xs-12 border-bottom" id="reservation-drop">
+			                				<div class="col-xs-8 p-0">
+			                					<div class="dropdown pull-left">
+			                						<div data-toggle="dropdown">
+					                					<i class="fa fa-times"></i>
+														Reservation
+														<span class="caret"></span>
+													</div>
+												  	<ul class="dropdown-menu user-list">
+													    <li><a href="#">Cancel Ticket</a></li>
+													    <li><a href="#">Something</a></li>
+												  	</ul>
+			                					</div>
+			                				</div>
+			                				<div class="col-xs-4 text-right right-search-icon">
+			                					<i class="fa fa-search"></i>
+			                				</div>
+			                			</div>
+			                			<div class="col-xs-12 border-bottom" id="trip-type-wrap">
+			                				<ul>
+			                					<li class="active">All</li>
+			                					<li><i class="fa fa-plane"></i></li>
+			                					<li><i class="fa fa-bus"></i></li>
+			                					<li><i class="fa fa-university"></i></li>
+			                					<li><i class="fa fa-train"></i></li>
+			                				</ul>
+			                			</div>
+			                			<div class="col-xs-12 border-bottom data-header" id="trip-type-wrap">
+			                				<ul>
+			                					<li id="sortByOperator" data-orderby="dsc">Operator<!--  <i class="fa fa-angle-up"></i><i class="fa fa-angle-down"></i> --></li>
+			                					<li id="sortByOrigin" data-orderby="dsc">Origin<!--  <i class="fa fa-angle-up"></i><i class="fa fa-angle-down"></i> --></li>
+			                					<li id="sortByDestination" data-orderby="dsc">Destination<!--  <i class="fa fa-angle-up"></i><i class="fa fa-angle-down"></i> --></li>
+			                					<li id="sortByDate" data-orderby="dsc">Date<!--  <i class="fa fa-angle-up"></i><i class="fa fa-angle-down"></i> --></li>
+			                				</ul>
+			                			</div>
+			                			<div class="col-xs-12 p-0 cards-container" id="cards-container">
+			                				<div class="col-xs-12 each-card">
+			                					<div class="circle-div">
+			                						<i class="fa fa-plane"></i>
+			                					</div>
+			                					<div class="col-xs-8">
+			                						<div class="station-name">
+			                							<span class="origin">{{item.origin}}</span> -
+			                							<span class="destination">{{item.designation}}</span>
+			                						</div>
+			                						<div class="caption operator-name">{{item.operator}}</div>
+			                					</div>
+			                					<div class="col-xs-4 caption text-right">
+			                						<div>Departing</div>
+			                						<div class="departing-time">{{item.time}}</div>
+			                					</div>
+			                				</div>
+			                			</div>
+			                		</div>
+			                		<div class="col-xs-12 col-md-6" id="rightsplit-section">
+			                			<div class="col-xs-8 trip-card">
+			                				<div class="pull-left">
+			                					<img src="../assets/img/qr.png" alt="">
+			                				</div>
+			                				<div class="pull-left pt-24">
+			                					<div class="caption1 primary-silver">Airline</div>
+			                					<div>IndiGo <b>IG 198</b></div>
+			                					<div class="caption1 primary-silver pt-24">PNR Number</div>
+			                					<div>A4DP1</b></div>
+			                				</div>
+			                				<div class="col-xs-12 font-24">
+			                					Thiagarajan Rajagopalan
+			                				</div>
+			                				<div class="col-xs-12 ori-desi">
+			                					<div class="origin">BLR</div>
+			                					<div class="center">
+			                						<i class="fa fa-plane"></i>
+			                					</div>
+			                					<div class="destination">FRS</div>
+			                					<div class="caption1">* Flight Operated by Delta Airlines</div>
+			                				</div>
+			                				<div class="col-xs-12 p-0">
+			                					<div class="col-xs-3">
+			                						<div class="caption1 primary-silver pt-8">Departure</div>
+			                						<div>03:30</div>
+			                					</div>
+			                					<div class="col-xs-5">
+			                						<div class="caption1 primary-silver pt-8">Date</div>
+			                						<div>Wed, 18th Oct</div>
+			                					</div>
+			                					<div class="col-xs-4">
+			                						<div class="caption1 primary-silver pt-8">Check-In Coses</div>
+			                						<div>02:30</div>
+			                					</div>
+			                				</div>
+			                				<div class="col-xs-12 p-0">
+			                					<div class="col-xs-3">
+			                						<div class="caption1 primary-silver pt-8">Seat</div>
+			                						<div>16C</div>
+			                					</div>
+			                					<div class="col-xs-5">
+			                						<div class="caption1 primary-silver pt-8">Zone</div>
+			                						<div>3</div>
+			                					</div>
+			                				</div>
+			                				<div class="col-xs-12 p-0">
+			                					<div class="col-xs-3">
+			                						<div class="caption1 primary-silver pt-8">Arrival</div>
+			                						<div>08:40</div>
+			                					</div>
+			                					<div class="col-xs-5">
+			                						<div class="caption1 primary-silver pt-8">Date</div>
+			                						<div>Thu, 19th Oct</div>
+			                					</div>
+			                				</div>
+			                				<div class="col-xs-12 pb-12 border-bottom">
+			                					<div class="caption1 primary-silver pt-8">Meal Preference</div>
+			                					<div>German Sausage & Saurkraut Combo</div>
+			                				</div>
+				                			<div class="col-xs-12 p-0 pt-12">
+				                				<div class="col-xs-7">
+				                					<div class="caption1 primary-silver pt-8">Ticket Number</div>
+				                					<div>IG109238-AKJNSB-129</div>
+				                				</div>
+				                				<div class="col-xs-5 text-right">
+				                					<div class="caption1 primary-silver pt-8">Total</div>
+				                					<div>Rs. 25,546.<small>00</small></div>
+				                				</div>
+				                			</div>
+			                			</div>	
+			                			<div class="trip-card-actions">
+			                				<ul>
+			                					<li>
+			                						<div class="name">More</div>
+			                						<div class="circle-btn">
+			                							<div class="circle">
+			                								<i class="fa fa-ellipsis-h"></i>
+			                							</div>
+			                						</div>
+			                					</li>
+			                					<li>			 
+			                						<div class="name">Share</div>               						
+			                						<div class="circle-btn">
+			                							<div class="circle">
+			                								<i class="fa fa-ellipsis-h"></i>
+			                							</div>
+			                						</div>
+			                					</li>
+			                					<li>
+			                						<div class="name">Modify</div>			                						
+			                						<div class="circle-btn">
+			                							<div class="circle">
+			                								<i class="fa fa-pencil"></i>
+			                							</div>
+			                						</div>
+			                					</li>
+			                					<li>
+			                						<div class="name">Cancel</div>			                						
+			                						<div class="circle-btn">
+			                							<div class="circle">
+			                								<i class="fa fa-times"></i>
+			                							</div>			                						
+			                						</div>
+			                					</li>
+			                					<li>
+			                						<div class="name">Book Again</div>
+			                						<div class="circle-btn">
+			                							<div class="circle">
+			                								<i class="fa fa-plus"></i>
+			                							</div>			                						
+			                						</div>
+			                					</li>
+			                					<li>
+			                						<div class="name">Download</div>
+			                						<div class="circle-btn">
+			                							<div class="circle download">
+			                								<i class="fa fa-download"></i>
+			                							</div>
+			                						</div>
+			                					</li>
+			                				</ul>
+			                			</div>		                			
+			                		</div>
+			                		<div id="splitter"></div>
+			                	</div>
+		                	</div>
+		                </div>
+		            </div>
+		        </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- js files -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/jquery-ui.js"></script>
+	<script src="../assets/js/index.js"></script>
+</body>
+</html>
